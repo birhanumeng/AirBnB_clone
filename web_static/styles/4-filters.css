@@ -1,0 +1,28 @@
+/* ====filter style ==== */
+
+/* secction style */
+.filters {
+	background: #fff;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+/* button style */
+.filters button {
+	font-size:18px;
+	background: #ff5a5f;
+	color: #fff;
+	height: 48px;
+	width: 20%;
+	float: right;
+	border: none;
+	border-radius: 4px;
+	margin: 11px 30px;
+}
+
+/* button style */
+.filters button:hover {
+	opacity: 90%;
+}

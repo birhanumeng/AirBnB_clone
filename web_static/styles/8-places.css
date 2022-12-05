@@ -1,0 +1,58 @@
+/* 
+ * Places style
+ */
+.places {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.places h1 {
+	text-align: left;
+	font-size: 30px;
+	padding-left: 20px;
+	padding-bottom: 0;
+	flex-basis: 100%;
+	margin-bottom: 0;
+	padding-bottom: -15px;
+}
+
+article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: #ff5a5f solid 1px;
+	border-radius: 4px;
+	align-items: center;
+	justify-content: center;
+}
+
+article h2 {
+	font-size:30px;
+	display: flex;
+        justify-content: center;
+}
+
+.price_by_night {
+        font-color:#ff5a5f;
+        min-width: 60px;
+        height: 60px;
+        font-size: 30px;
+        float: right;
+	padding-left: 5px;
+	padding-top: -40px;
+}
+
+article .custom {
+	display: flex;
+	display: inline-block;
+}
+
+.custom div {
+	display: inline-block;
+}
+
+.information div {
+	display: inline-block;
+}
